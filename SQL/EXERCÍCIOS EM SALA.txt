@@ -1,0 +1,49 @@
+INSERT INTO CLIENTE (nome,idade,cpf,Cidade)
+VALUES('Maria','13','12345678900','Santa Rita'), 
+('João','25','00112233466','João Pessoa'), 
+('Paulo', '67','85231678947','Belo Horizonte');
+
+UPDATE CLIENTE
+SET Cidade = 'Natal'
+WHERE cpf =  '85231678947';
+
+INSERT INTO CLIENTE (nome, idade, cidade)
+VALUES
+('Maria', 23, 'João Pessoa'),
+('João', 31, 'Recife'),
+('Paulo', 45, 'Belo Horizonte'),
+('Ana', 19, 'Fortaleza'),
+('Carlos', 52, 'Salvador'),
+('Fernanda', 28, 'Curitiba'),
+('Lucas', 34, 'Porto Alegre'),
+('Juliana', 26, 'Natal'),
+('Rafael', 40, 'São Paulo'),
+('Camila', 22, 'Rio de Janeiro');
+
+
+SELECT * FROM cliente;
+
+SELECT * FROM cliente
+WHERE idade BETWEEN 25 AND 45;
+
+SELECT * FROM cliente
+WHERE nome LIKE 'João';
+
+SELECT * FROM cliente
+WHERE idade IN ('20','40');
+
+SELECT AVG(IDADE) FROM CLIENTE
+
+SELECT MIN(IDADE) FROM CLIENTE
+
+SELECT MAX(IDADE) FROM CLIENTE
+
+
+SELECT cidade, COUNT(*)
+FROM CLIENTE
+GROUP BY cidade
+
+SELECT cidade, COUNT(*)
+FROM CLIENTE
+GROUP BY cidade
+HAVING COUNT(*) > 2;

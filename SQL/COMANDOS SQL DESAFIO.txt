@@ -1,0 +1,71 @@
+CREATE TABLE ALUNO(  
+ID_ALUNO INT(50) auto_increment,     
+PRIMARY KEY(ID_ALUNO),     
+nome VARCHAR(100) NOT NULL,     
+turma VARCHAR(100) NOT NULL,     
+cpf VARCHAR(100) NOT NULL);
+
+
+CREATE TABLE NOTAS(
+	id_notas int(100) auto_increment PRIMARY KEY,
+    id_aluno int(100),
+    CONSTRAINT fk_notas_alunos
+    FOREIGN KEY (id_aluno)
+    REFERENCES Aluno(ID_ALUNO)
+);
+
+
+ALTER TABLE NOTAS
+ADD COLUMN NOTA1
+FLOAT(40) NOT NULL;
+
+ALTER TABLE NOTAS
+ADD COLUMN NOTA2
+FLOAT(40) NOT NULL;
+
+ALTER TABLE NOTAS
+ADD COLUMN MEDIA
+FLOAT(40) NOT NULL;
+
+INSERT INTO aluno (nome, turma, cpf) VALUES 
+('Alice Rebouças', '9º A', '111.222.333-44'), ('Bernardo Lima', '9º A', '222.333.444-55'),
+('Caio Mesquita', '9º B', '333.444.555-66'), ('Daniela Arantes', '9º B', '444.555.666-77'),
+('Eduardo Paiva', '9º C', '555.666.777-88'), ('Fernanda Luz', '9º A', '666.777.888-99'),
+('Gabriel Dantas', '9º C', '777.888.999-00'), ('Helena Silveira', '9º B', '888.999.000-11'),
+('Ítalo Borges', '9º A', '999.000.111-22'), ('Joana Prado', '9º C', '000.111.222-33'),
+('Kleber Rocha', '9º B', '121.232.343-45'), ('Letícia Viana', '9º A', '232.343.454-56'),
+('Maurício Ramos', '9º C', '343.454.565-67'), ('Natália Sales', '9º B', '454.565.676-78'),
+('Otávio Neto', '9º C', '565.676.787-89');
+
+
+INSERT INTO notas (NOTA1, NOTA2, MEDIA) VALUES 
+(8.5, 7.5, 8.0), (6.0, 4.0, 5.0), (9.0, 10.0, 9.5),
+(7.2, 8.8, 8.0), (5.5, 6.5, 6.0), (10.0, 9.0, 9.5),
+(4.0, 3.5, 3.75), (8.0, 8.0, 8.0), (6.5, 7.5, 7.0),
+(9.5, 8.5, 9.0), (3.0, 5.0, 4.0), (7.0, 7.0, 7.0),
+(8.2, 7.8, 8.0), (5.0, 9.0, 7.0), (10.0, 10.0, 10.0);
+
+
+UPDATE ALUNO
+SET Nome = 'Alisson'
+WHERE id_aluno = 6;
+
+SELECT id_aluno, media FROM NOTAS
+WHERE MEDIA >= 7;
+
+SELECT AVG(media) FROM NOTAS
+
+SELECT MIN(NOTA1) FROM NOTAS
+
+SELECT MAX(NOTA1) FROM NOTAS
+
+
+SELECT MEDIA, COUNT(*) FROM NOTAS
+GROUP BY MEDIA
+
+SELECT MEDIA, COUNT(*) FROM NOTAS
+GROUP BY MEDIA
+HAVING COUNT(*) > 1
+
+SELECT Aluno.nome , Notas.media FROM NOTAS
+INNER JOIN Aluno ON NOTAS.id_aluno = ALuno.id_aluno
