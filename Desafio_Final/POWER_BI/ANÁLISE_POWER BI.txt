@@ -1,0 +1,68 @@
+Análise do POWER BI
+
+Essa análise será pelos os que considerei mais críticos até os mais interessantes.
+
+
+FAIXA DE 65+ (Crítico)
+
+De todo o gráfico, é perceptível que o pessoal com faixa +65 tem umas das piores situações.
+
+Pelo o gráfico do Power BI, é possível ver que pessoas com mais de 65 anos tem uma média
+de histórico de crédito menor que as outras faixas de idade. Não só isso, mas elas são as que mais possuem
+pagamentos em atraso(38 ao todo). Isso pode estar relacionado a sua renda mensal, que é mais baixa 
+que outras faixas etárias, logo ocasionando numa menor probabilidade de conseguir crédito.
+
+A minha hipotése é que isso se deve ao fato que a aposentadoria deles não é o suficiente para o sustento,
+logo precisam se endividar para sobreviver.
+
+
+
+FAIXA DE 45-54 (ATENÇÃO)
+
+O pessoal nessa faixa precisa de atenção. Eles são um dos que mais possuem média de empréstimos, inclusive
+maior do que o pessoal de 65+, tem uma histórico de crédito baixa comparada as outras faixas mesmo tendo uma renda
+média maior que as outras. Além disso, são um dos que mais possuem pagamentos em atraso.
+
+Minha hipotése é que pode ser pessoas que não obtiveram sucesso nas empresas ou que possuem uma 
+péssima qualidade de administração do seu dinheiro.
+
+
+
+FAIXA DE 25-34 (ATENÇÃO)
+
+Nessa faixa, recomendo bastante atenção. Primeiramente, possuem a maior média de dívidas de todas as faixas.
+São um dos que mais possuem contas em atraso, além de ter uma alta média de empréstimos.
+
+Minha hipotése é que são pessoas que estão tentando se estabilizar. Por isso dos números altos.
+No entanto, ainda deve-se ter muita cautela com essa faixa.
+
+
+
+FAIXA DE 55-64 (INTERESSANTE)
+
+Embora possuem a maior renda média comparado as outras faixas, também são os que mais possuem média de empréstimos.
+No entanto,possuem uma menor quantidade de pagamentos atrasados. 
+
+Também possuem uma média de histórico de crédito maior. 
+
+Como possuem uma histórico de crédito maior, renda mensal maior e devido a maior idade, minha hipotése é que isso pode 
+estar relacionado a algum investimento que essas pessoas estão fazendo. Pode ser referente a criação
+de uma empresa ou para seus negócios(Caso sejam empreendedores).
+
+
+FAIXA DE 35-44 (ATENÇÃO)
+
+Embora possuam a menor média de emprestimos, são o segundo maior em pagamentos por atraso, além de uma
+dívida relativamente alta. O histórico de crédito também é baixo comparado as outras faixas etárias.
+
+Logo, isso pode indicar um descontrole financeiro maior. 
+
+
+FAIXA DE 18-24(OK)
+
+De todos, são os que possuem menos pagamentos em atraso, possuem um bom histórico de crédito, renda mensal e dívidas totais baixas
+comparado a outras faixas.
+
+No entanto, vale ressaltar que possuem uma das maiores médias de empréstimos.
+
+Minha hipotése é que são pessoas que estão iniciando a vida, logo desejam comprar seu imóvel próprio.

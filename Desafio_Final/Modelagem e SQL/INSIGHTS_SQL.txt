@@ -1,0 +1,64 @@
+INSIGHTS DO SQL
+
+CLIENTE
+
+O banco de dados possui em torno de 15 clientes já cadastrados, os quais todos são brasileiros.
+
+FUNCIONARIO
+
+Ao longo do tempo, a empresa já teve 15 contratações no mês março de 2026.
+
+Até o momento, a empresa não possui desligamentos.
+
+ALUGUEL
+
+Já possuímos 8 alugueis finalizados, assim gerando renda.
+
+Com no banco de dados, já geramos um total de R$3510 em receita, considerando ainda os alugueis ativos.
+
+VEICULO
+
+Nós possuímos uma diária média de R$155,50.
+
+Embora tenhamos uma boa frota, não temos carros tão valorizados. Com base na pesquisa da FIPE, só temos
+um carro com a FIPE maior que 120.000, sendo um JEEP COMPASS
+
+PAGAMENTO
+
+É perceptível que as pessoas preferem as pessoas tem um método preferido de pagamento: Pix.
+Logo depois vem cartão e por fim, dinheiro.
+
+Os veículos que foram mais usados ou estão uso são da Chevrolet
+
+MANUTENÇÃO
+
+As marcas que tem maior custo de manutenção são a honda, toyota e Jeep.
+
+Até o momento, foi gasto em torno de R$5430,00 em manutenção dos carros.
+
+
+-----------------
+
+EM RELAÇÃO AOS JOINS
+
+Há modelos em que o custo de manutenção ultrapassa a sua receita, assim valendo mais a pena vende-lo.
+
+
+Há clientes que nos deram um bom faturamento, sendo os 3 principais: Fernando Batista, Carlos Henrique Lima e
+Rafael Gomes Pereira.
+
+
+Percebe-se que ainda há clientes em que o pagamento está pedente, o que acarreta em custos para a 
+empresa.
+
+
+
+-------------------------------------------------
+
+PRINCIPAIS INSIGHTS QUE PUDE RETIRAR
+
+A média de diária ainda é baixa, logo precisamos analisar se isso é sustentável.
+
+A maior parte dos nossos clientes preferem Chevrolet, logo faz mais sentido investir nessa marca.
+
+Honda, Toyota e Jeep são muitos custosos e não arrecadam tanto, logo faz sentido diminuir a frota dessas marcas. 
